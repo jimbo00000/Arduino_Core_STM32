@@ -150,15 +150,15 @@ extern "C" {
 #endif
 #define PF11 87 // A9
 #define PF12 88 // A10
-#define PF14 89 // A11
-#define PG5  90
+#define PF13 89 // A11
+#define PF14 90 // A12
 #define PG8  91
 #define PG10 92
 #define PG15 93
 #ifdef ARDUINO_NUCLEO_H743ZI2
 #define PA7  94 // SPI_A_MOSI/Used by ETH when SB31 ON
 #define PD10 95
-#define PF13 96
+#define PG5  96
 #define PG4  97
 #define PF15 98
 #define PG9  99
@@ -176,7 +176,7 @@ extern "C" {
 #define NUM_DIGITAL_PINS        97
 #endif
 // This must be a literal with a value less than or equal to to MAX_ANALOG_INPUTS
-#define NUM_ANALOG_INPUTS       12
+#define NUM_ANALOG_INPUTS       13
 #define NUM_ANALOG_FIRST        78
 
 // On-board LED pin number

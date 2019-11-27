@@ -147,15 +147,15 @@ const PinName digitalPin[] = {
 #endif
   PF_11, //D87 - A9
   PF_12, //D88 - A10
-  PF_14, //D89 - A11
-  PG_5,  //D90
+  PF_13, //D89 - A11
+  PF_14, //D90 - A12
   PG_8,  //D91
   PG_10, //D92
   PG_15, //D93
 #ifdef ARDUINO_NUCLEO_H743ZI2
   PA_7,  //D94 - SPI_A_MOSI/Used by ETH when SB31 ON
   PD_10, //D95
-  PF_13, //D96
+  PG_5,  //D96
   PG_4,  //D97
   PF_15, //D98
   PG_9,  //D99
